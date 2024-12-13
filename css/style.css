@@ -396,9 +396,15 @@ img {
 /*#region footer*/
 .footer-page {
     display: flex;
+    align-items: baseline;
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.footer-page .container {
+    margin-right: 120px;
+    margin-left: 156px;
 }
 
 .logo {
@@ -415,19 +421,15 @@ img {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     width: 264px;
-
 }
 
 .foter-media {
-    display: flex;
-    justify-content: start;
-    align-self: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-top: 10px;
+    margin-bottom: 16px; 
 }
 
 .foter-social-networks {
@@ -436,23 +438,33 @@ img {
     align-self: center; 
     flex-direction: row;
     gap: 16px;
-    padding-top: 16px;
 }
 
 .icon-item {
-    display: flex;
-    justify-content: center;
-    align-self: center; 
     width: 40px;
     height: 40px; 
-    border-radius: 50%;
-    background-color: #4D5AE5;
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.icon-item:hover, .icon-item:focus {
+.icon-item-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon-item-link:hover, .icon-item:focus {
     background-color: #31D0AA;
+}
+
+.social-networks-icon {
+    width: 24px;
+    height: 24px;
+    fill: #f4f4fd;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*#endregion footer*/
