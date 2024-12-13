@@ -225,7 +225,7 @@ img {
 
 .advantages-list-icons {
    display: flex;
-   align-self: center;
+   /* align-self: center; */
    align-items: center;
 } 
 
