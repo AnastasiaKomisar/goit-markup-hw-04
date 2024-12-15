@@ -93,7 +93,7 @@ img {
     color: #404BBF;
 }
 
-.menu-list-points::after{
+.menu-list:first-child a::after{
     display: block;
     content: '';
     width: 100%;
@@ -236,13 +236,8 @@ img {
     margin-bottom: 8px;
     display: flex;
     justify-content: center; 
+    align-items: center;
 }
-
-.advantages-list-icons {
-   display: flex;
-   /* align-self: center; */
-   align-items: center;
-} 
 
 .advantages-name {
     font-weight: 500;
