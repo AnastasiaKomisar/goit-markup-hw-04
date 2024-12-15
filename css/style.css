@@ -420,8 +420,13 @@ img {
 .footer-page .container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+    /* margin-right: 120px; */
     /* margin-left: 156px; */
+}
+
+.logo-container {
+    margin-right: 120px;
+
 }
 
 .logo {
@@ -440,7 +445,7 @@ img {
     width: 264px;
 }
 
-.foter-media {
+.footer-media {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -449,7 +454,7 @@ img {
     margin-bottom: 16px; 
 }
 
-.foter-social-networks {
+.footer-social-networks {
     display: flex;
     justify-content: start;
     align-self: center; 
@@ -470,10 +475,11 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.icon-item-link:hover, .icon-item:focus {
+.icon-item-link:hover, .icon-item-link:focus {
     background-color: #31D0AA;
 }
 
@@ -481,7 +487,6 @@ img {
     width: 24px;
     height: 24px;
     fill: #f4f4fd;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*#endregion footer*/
